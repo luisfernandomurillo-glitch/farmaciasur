@@ -10,7 +10,6 @@ header {
     padding: 15px 30px;
     border-bottom: 1px solid #ddd;
     font-family: Arial, sans-serif;
-    
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -23,13 +22,12 @@ header h1 {
 }
 
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
+nav ul {
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     gap: 20px; 
+    flex-wrap: wrap;
 }
 
 header nav a {
@@ -40,4 +38,44 @@ header nav a {
 
 header nav a:hover {
     color: #0066cc;
+}
+
+.alerta-stock {
+    background-color: #fff3f3; 
+    border: 1px solid #ffcccc; 
+    border-left: 5px solid #e74c3c; 
+    border-radius: 8px; 
+    padding: 16px 20px; 
+    max-width: 400px; 
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+}
+
+.alerta-stock header h3 {
+    margin: 0 0 12px 0;
+    color: #c0392b; 
+}
+
+.cuerpo-alerta p {
+    margin: 8px 0;
+    color: #333333;
+    font-size: 0.95rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px; 
+    }
 }
