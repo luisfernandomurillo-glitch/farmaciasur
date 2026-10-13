@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Floreria La Orquidea</title>
+</head>
+<body>
+    <header>
+        <h1>Floreria La Orquidea</h1>
+
+        <nav>
+                <a href="#inicio">INICIO</a>
+                <a href="#nuestros-arreglos">NUESTROS ARREGLOS</a>
+                <a href="#contacto">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="arreglos" class="arreglos">
+            <h2>Nuestros arreglos</h2>
+            <p>En nuestra florería encontrarás los arreglos florales más hermosos y frescos para cualquier ocasión</p>
+
+            <ul>
+                <li>Ramos de rosas - Bs 60</li>
+                <li>Ramo de girasoles - Bs 35</li>
+                <li>Planta en maceta - Bs 20</li>
+            </ul>
+        </section>
+
+        <form class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="" class="pedido-flores">Flores para el pedido:</label>
+            <textarea id="pedido" name="pedido" rows="4" required></textarea>
+
+            <button type="submit" id="btn-pedido" class="btn-pedido">Hacer mi pedido</button>
+            <p id="mensaje" class="mensaje oculto"></p>
+        </form>
+    </main>
+
+    <footer>
+        <p>Parcial 1 - Murillo Apaza Luis Fernando - 12 de octubre de 2026</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
