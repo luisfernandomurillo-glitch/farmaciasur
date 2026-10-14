@@ -66,7 +66,7 @@
 
             <section id="formulario-consultas" class="formulario-consultas">
                 <h2>Formulario de consultas</h2>
-                <form class="formulario1">
+                <form class="formulario1" novalidate>
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
 
@@ -75,9 +75,11 @@
 
                     <label for="mensaje">Mensaje:</label>
 
-                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
 
                     <button type="submit">Enviar</button>
+
+                    <p id="error-pedido" class="aviso"></p>
                 </form>
             </section>
 
