@@ -1,0 +1,52 @@
+.aviso{
+    display: none;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.aviso.error{
+    display: block;
+    background-color: #7f1d1d;
+    color: #fca5a5;
+    border-left: 4px solid red;
+}
+
+.aviso.exito{
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    border-left: 4px solid green;
+}
+
+header{
+    background-color: blanchedalmond;
+    color: #7f1d1d;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 1px solid #7f1d1d;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.form-turno{
+    display: flex;
+    flex-direction: column;
+    color: #7f1d1d;
+    gap: 10px;
+}
+
+.form-turno button{
+    background-color: blanchedalmond;
+    color: #7f1d1d;
+    border-radius: 8px;
+    border: 1px solid #7f1d1d;
+    margin-top: 10px;
+}

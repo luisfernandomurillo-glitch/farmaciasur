@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Patitas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Veterinaria Patitas</h1>
+        <p>En Veterinaria Patitas ofrecemos atención a tus mascotas</p>
+    </header>
+
+
+    <main>
+        <section class="formulario">
+            <form id="form-turno" class="form-turno" action="procesar.php" method="post" novalidate>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label for="consulta">Consulta:</label>
+                <textarea name="mascota" id="mascota"></textarea>
+
+                <button type="submit">Reservar mi turno</button>
+                <p id="aviso-turno" class="aviso"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Parcial 2 - Murillo Apaza Luis Fernando - 20 de octubre de 2026</p>
+    </footer>
+
+    <script src="LittleScript.js"></script>
+</body>
+</html>

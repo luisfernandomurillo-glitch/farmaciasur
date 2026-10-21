@@ -242,7 +242,7 @@ body.claro .hamburguesa {
 }
 
 .aviso.exito{
-        display: block;
+    display: block;
     background-color: darkgreen;
     color: white;
     border-left: 4px solid green;
