@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmacia del Sur</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite('resources/js/app.js')
 </head>
 <body>
     
@@ -17,8 +18,10 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#ventas">Ventas</a></li>
                 <li><a href="#inventario">Inventario</a></li>
-				<li><a href="#lotes">Lotes</a></li> 
-				<li><a href="./vistas/usuarios.html">Usuarios</a></li>
+				<li><a href="{{ route('lotes.index') }}">Lotes</a></li> 
+                <li><a href="{{ route('lotes.create') }}">Nuevo Lote</a></li>
+				<li><a href="{{ route('usuarios.create') }}">Usuarios</a></li>  
+                <li><a href="{{ route('usuarios.index') }}">Ver usuarios</a></li> 
             </ul>
         </nav>
     </header>
@@ -92,7 +95,7 @@
         <p>Murillo Apaza Luis Fernando</p>
 	</footer>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/welcome.js') }}"></script>
  </body>
 
 </body>

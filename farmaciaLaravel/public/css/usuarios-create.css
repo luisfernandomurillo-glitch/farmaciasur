@@ -1,0 +1,11 @@
+.form-usuarios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: bisque;
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
