@@ -70,7 +70,7 @@
                 <h2>Formulario de consultas</h2>
                 <form class="formulario1" novalidate>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
 
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
