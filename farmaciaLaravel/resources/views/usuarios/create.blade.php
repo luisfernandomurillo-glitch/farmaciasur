@@ -30,6 +30,7 @@
             <input type="password" id="password_confirmation" name="password_confirmation" required>
 
             <button type="submit">Registrar</button>
+            <p>Contraseña de 8 caracteres</p>
         </form>
     </main>
 </html>

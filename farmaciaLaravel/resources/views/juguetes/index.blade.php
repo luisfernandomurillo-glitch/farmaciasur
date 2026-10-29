@@ -19,7 +19,7 @@
 
         <ul>
                @foreach ($juguetes as $juguete)
-                <li>{{ $juguete->nombre }} - {{ $juguete->precio }} Bs</li>
+                <li>{{ $juguete->nombre }} - {{ $juguete->precio }} Bs - stock: {{ $juguete->stock }}</li>
                @endforeach
         </ul>
 
@@ -27,6 +27,7 @@
     </main>
 
     <footer>
+        <p>Reto de 29 octubre de 2026 <----</p>
         <p>Integradora - Murillo Apaza Luis Fernando - 27 de octubre de 2026</p>
     </footer>
 </body>

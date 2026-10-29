@@ -26,6 +26,9 @@
             <label for="precio">Precio</label>
             <input type="number" id="precio" name="precio">
 
+            <label for="stock">Stock</label>
+            <input type="number" id="stock" name="stock">
+
             <button type="submit">Registrar</button>
         </form>
     </main>
