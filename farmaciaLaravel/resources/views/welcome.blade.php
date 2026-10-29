@@ -20,7 +20,7 @@
                 <li><a href="#inventario">Inventario</a></li>
 				<li><a href="{{ route('lotes.index') }}">Lotes</a></li> 
                 <li><a href="{{ route('lotes.create') }}">Nuevo Lote</a></li>
-				<li><a href="{{ route('usuarios.create') }}">Usuarios</a></li>  
+				<li><a href="{{ route('usuarios.create') }}">Nuevo Usuario</a></li>  
                 <li><a href="{{ route('usuarios.index') }}">Ver usuarios</a></li> 
             </ul>
         </nav>

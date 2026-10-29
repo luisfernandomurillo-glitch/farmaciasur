@@ -13,8 +13,8 @@ class LoginController extends Controller
 
     public function store(Request $request){
         $credenciales = $request->validate([
-            'correo'    => ['required', 'email'],
-            'clave' => ['required'],
+            'email'    => ['required', 'email'],
+            'password' => ['required'],
         ]);
 
         if (Auth::attempt($credenciales)) {

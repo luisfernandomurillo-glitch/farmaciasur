@@ -16,31 +16,25 @@
             @csrf
 
             <label for="nombre_producto">Nombre del producto</label>
-            <input type="text" id="nombre_producto" name="nombre_producto"
-                   value="{{ old('nombre_producto') }}" required>
+            <input type="text" id="nombre_producto" name="nombre_producto" required>
 
             <label for="cantidad">Cantidad</label>
-            <input type="number" id="cantidad" name="cantidad" min="1"
-                   value="{{ old('cantidad') }}" required>
+            <input type="number" id="cantidad" name="cantidad" min="1"  required>
 
             <label for="precio_unitario">Precio unitario</label>
-            <input type="number" id="precio_unitario" name="precio_unitario"
-                   step="0.01" min="0" value="{{ old('precio_unitario') }}" required>
+            <input type="number" id="precio_unitario" name="precio_unitario" step="0.01" min="0" required>
 
             <label for="descripcion">Descripción</label>
-            <textarea id="descripcion" name="descripcion" rows="3" value="{{ old('descripcion') }}"></textarea>
+            <textarea id="descripcion" name="descripcion" rows="3"></textarea>
 
             <label for="fecha_ingreso">Fecha de ingreso</label>
-            <input type="date" id="fecha_ingreso" name="fecha_ingreso"
-                   value="{{ old('fecha_ingreso') }}" required>
+            <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
 
             <label for="fecha_caducidad">Fecha de caducidad</label>
-            <input type="date" id="fecha_caducidad" name="fecha_caducidad"
-                   value="{{ old('fecha_caducidad') }}" required>
+            <input type="date" id="fecha_caducidad" name="fecha_caducidad" required>
 
             <label for="laboratorio">Laboratorio</label>
-            <input type="text" id="laboratorio" name="laboratorio"
-                   value="{{ old('laboratorio') }}" required>
+            <input type="text" id="laboratorio" name="laboratorio" required>
 
             <label for="disponible">Disponibilidad</label>
             <select id="disponible" name="disponible" required>
